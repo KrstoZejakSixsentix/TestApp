@@ -27,7 +27,7 @@ namespace TestApp
             Client.Connect();
 
             Console.WriteLine("Press any key to stop the test");
-            Console.ReadKey();
+            Console.Read();
             Console.WriteLine("Test stopped");
         }
 
