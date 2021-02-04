@@ -15,15 +15,15 @@ namespace TestApp
             _service = service;
         }
 
-        public async Task Start()
+        public async Task Start(string username)
         {
             try
             {
                 //for (int i=1;i<10;i++)
                 //{
-               // await CreateUsernamePasswordAccount();
+               await CreateUsernamePasswordAccount(username);
                  //await CreateEmailPasswordAccount(i);
-                 await CreateEmailPasswordAccount();
+                //  await CreateEmailPasswordAccount();
                  await Logout();
                  // await CreateUsernamePasswordAccount(); izmeniti da bude za token
                  //await CreateUsernamePasswordAccount(); izmeniti da bude za async
@@ -38,10 +38,9 @@ namespace TestApp
             }
         }
 
-        private async Task CreateUsernamePasswordAccount() 
+        private async Task CreateUsernamePasswordAccount(string username) 
         {
             //var username = "J-123";
-            var username = $"User-{Guid.NewGuid().ToString().Substring(0, 8)}";
             var result = await _service.AuthenticateWithUsernamePasswordAsync(
                 new AuthenticateWithUsernamePasswordLoginRequest
                 {

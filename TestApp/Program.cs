@@ -8,14 +8,19 @@ namespace TestApp
     class Program
     {
         private static IClient Client;
-        private const string appKey = "23d4cc5d-d2fa-4ebe-955e-bffe69e7ebaf";
+        private const string appKey = "a6c2ae74-dc6a-4143-90a6-5f593a8c12e9";
         public static AuthenticationServiceFactory AuthFactory { get; set; }
+        public static string Username;
         static void Main(string[] args)
         {
+            Username = Console.ReadLine();
+            if(string.IsNullOrEmpty(Username))
+            {
+                Username = "not-provided";
+            }
+
             var pluginHost = ClientFactory.GetPluginHost(appKey, "development");
             AuthFactory = new AuthenticationServiceFactory(pluginHost);
-
-
             Client = ClientFactory.GetClient(pluginHost);
             Client.OnConnected += Client_OnConnected;
             Client.OnFailedToConnect += Client_OnFailedToConnect;
@@ -45,7 +50,7 @@ namespace TestApp
             var authService = AuthFactory.Create(Client);
 
             var authTest = new AuthenticationTest(authService);
-            authTest.Start()
+            authTest.Start(Username)
                 .ConfigureAwait(false)
                 .GetAwaiter()
                 .GetResult();
