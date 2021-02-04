@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "TestApp/1.0.0": {
         "dependencies": {
-          "ServerBytes.Client": "1.0.8",
-          "ServerBytes.Plugins.Authentication.Client": "1.0.6"
+          "ServerBytes.Client": "1.0.9",
+          "ServerBytes.Plugins.Authentication.Client": "1.0.9"
         },
         "runtime": {
           "TestApp.dll": {}
@@ -192,110 +192,110 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
-      "ServerBytes.Client/1.0.8": {
+      "ServerBytes.Client/1.0.9": {
         "dependencies": {
           "Json.NET.Aot": "9.0.1",
-          "ServerBytes.Connectivity.TCP.Core": "1.0.8",
-          "ServerBytes.PluginExecutor": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8",
-          "ServerBytes.PluginSDK.Client": "1.0.8",
+          "ServerBytes.Connectivity.TCP.Core": "1.0.9",
+          "ServerBytes.PluginExecutor": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9",
+          "ServerBytes.PluginSDK.Client": "1.0.9",
           "System.Text.Json": "4.7.2"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.Client.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.Connectivity.TCP.Core/1.0.8": {
+      "ServerBytes.Connectivity.TCP.Core/1.0.9": {
         "dependencies": {
-          "ServerBytes.ConnectivitySDK": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.ConnectivitySDK": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.Connectivity.TCP.Core.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.ConnectivitySDK/1.0.8": {
+      "ServerBytes.ConnectivitySDK/1.0.9": {
         "dependencies": {
-          "ServerBytes.PluginSDK": "1.0.8",
-          "ServerBytes.Pooling": "1.0.8"
+          "ServerBytes.PluginSDK": "1.0.9",
+          "ServerBytes.Pooling": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.ConnectivitySDK.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.PluginExecutor/1.0.8": {
+      "ServerBytes.PluginExecutor/1.0.9": {
         "dependencies": {
           "ImpromptuInterface": "7.0.1",
-          "ServerBytes.ConnectivitySDK": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.ConnectivitySDK": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.PluginExecutor.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.Plugins.Authentication.Abstractions/1.0.6": {
+      "ServerBytes.Plugins.Authentication.Abstractions/1.0.9": {
         "dependencies": {
           "MessagePackAnalyzer": "2.1.165",
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Abstractions.dll": {
-            "assemblyVersion": "1.0.6.0",
-            "fileVersion": "1.0.6.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.Plugins.Authentication.Client/1.0.6": {
+      "ServerBytes.Plugins.Authentication.Client/1.0.9": {
         "dependencies": {
-          "ServerBytes.PluginSDK.Client": "1.0.8",
-          "ServerBytes.Plugins.Authentication.Abstractions": "1.0.6"
+          "ServerBytes.PluginSDK.Client": "1.0.9",
+          "ServerBytes.Plugins.Authentication.Abstractions": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Client.dll": {
-            "assemblyVersion": "1.0.6.0",
-            "fileVersion": "1.0.6.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.PluginSDK/1.0.8": {
+      "ServerBytes.PluginSDK/1.0.9": {
         "dependencies": {
           "MessagePack": "2.1.165"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.PluginSDK.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.PluginSDK.Client/1.0.8": {
+      "ServerBytes.PluginSDK.Client/1.0.9": {
         "dependencies": {
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "runtime": {
           "lib/netstandard2.0/ServerBytes.PluginSDK.Client.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
-      "ServerBytes.Pooling/1.0.8": {
+      "ServerBytes.Pooling/1.0.9": {
         "runtime": {
           "lib/netstandard2.0/ServerBytes.Pooling.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
           }
         }
       },
@@ -1058,68 +1058,68 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "ServerBytes.Client/1.0.8": {
+    "ServerBytes.Client/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dp15p+GmdFGt3NMybZAeDPjeZipwGXHejQB6q4XsRhX3I0ITTyawpM6te8GKs4HMUIEZKck5oKfPnih9CLAExg==",
-      "path": "serverbytes.client/1.0.8",
-      "hashPath": "serverbytes.client.1.0.8.nupkg.sha512"
+      "sha512": "sha512-IQMNxoVLaEegEMuaw4LPG74BoUW6qVtrXJj76fA1McXInjyWY0KTJsxygZCu04BIBQuD7q6cdSNg7FNgoNk0nQ==",
+      "path": "serverbytes.client/1.0.9",
+      "hashPath": "serverbytes.client.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.Connectivity.TCP.Core/1.0.8": {
+    "ServerBytes.Connectivity.TCP.Core/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ce3MyV3hO1868n7E0niqve13nt7v7sEmGixk3HXOTaE6SCoHTewnF4XhQZebSmc8aTFJyri+9JbRfBQ+HAxx1A==",
-      "path": "serverbytes.connectivity.tcp.core/1.0.8",
-      "hashPath": "serverbytes.connectivity.tcp.core.1.0.8.nupkg.sha512"
+      "sha512": "sha512-o4LjEVddMzLRSbWj+dW5sYxQMRO4SsrA/WaWacz9P8gWmAVbbqMFsoyqB8/cqBLhXqKgVLbKxpR8Nl5ggaqqnw==",
+      "path": "serverbytes.connectivity.tcp.core/1.0.9",
+      "hashPath": "serverbytes.connectivity.tcp.core.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.ConnectivitySDK/1.0.8": {
+    "ServerBytes.ConnectivitySDK/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RG6lg1G7D41Al1srGrv3KNA8iyI6hQI6uqaoDjf6v1dVmPe2jI6oeEmQY5mLPdI370zlHtRYLHEPnVV2hi5Sbg==",
-      "path": "serverbytes.connectivitysdk/1.0.8",
-      "hashPath": "serverbytes.connectivitysdk.1.0.8.nupkg.sha512"
+      "sha512": "sha512-Erd8+4BgqXwKXQE4vpBK3uf4x4kDU2R2GDQVj5B51ElabIM79RsxRrhEwUEZUpFByDksCGLAbU3G3jY9hUg7SA==",
+      "path": "serverbytes.connectivitysdk/1.0.9",
+      "hashPath": "serverbytes.connectivitysdk.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.PluginExecutor/1.0.8": {
+    "ServerBytes.PluginExecutor/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1rLxPPOg690koHEmVh426oPjjkIdfsSW/zQn3A5ZzHYhzPYkFQwTukxN/cdRn5C/B7bvSAlVnFq3KY0XMNP+Mw==",
-      "path": "serverbytes.pluginexecutor/1.0.8",
-      "hashPath": "serverbytes.pluginexecutor.1.0.8.nupkg.sha512"
+      "sha512": "sha512-T1PuffvW006OOaZzQ8FFDZiLZ+HICjSmeSgPkloCRnUvQRnr0quA4Aijg2YJihhaLcqmAijkDHoTaaNnRDsdBQ==",
+      "path": "serverbytes.pluginexecutor/1.0.9",
+      "hashPath": "serverbytes.pluginexecutor.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.Plugins.Authentication.Abstractions/1.0.6": {
+    "ServerBytes.Plugins.Authentication.Abstractions/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+SY+qwYgLv5IGIb0W6NatZ6CS/u5Ab7y8S7Ezq1rQsFWFIVZpDn3eDLQorBzYl+bx+OyOS+e2MCNULXFcqDAQw==",
-      "path": "serverbytes.plugins.authentication.abstractions/1.0.6",
-      "hashPath": "serverbytes.plugins.authentication.abstractions.1.0.6.nupkg.sha512"
+      "sha512": "sha512-1NYwEC/QZDH9YyYpe28NFLXOhaAW87iy7XwAHwhaB8d7yGZ976TyasCUyaMQn+QHqfBr7Lw9I+coKGH/qVFRgA==",
+      "path": "serverbytes.plugins.authentication.abstractions/1.0.9",
+      "hashPath": "serverbytes.plugins.authentication.abstractions.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.Plugins.Authentication.Client/1.0.6": {
+    "ServerBytes.Plugins.Authentication.Client/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q5o+h7to3Kg4jJO4b8aZVu6c8xsU+Tui9rLtmPTUuyuqxFcQ5sAonjkrMXhwxLxGdHzv2CwPapbz/2XMpQeh4Q==",
-      "path": "serverbytes.plugins.authentication.client/1.0.6",
-      "hashPath": "serverbytes.plugins.authentication.client.1.0.6.nupkg.sha512"
+      "sha512": "sha512-DGOKgnXfu4GcyrSF+Kqn0IVsJvSow9k4nZt4U0Y72NQ8tVYBAGJxwoXOjYA/NUqxBiu4T1pSz9DRcqWHKmqfVQ==",
+      "path": "serverbytes.plugins.authentication.client/1.0.9",
+      "hashPath": "serverbytes.plugins.authentication.client.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.PluginSDK/1.0.8": {
+    "ServerBytes.PluginSDK/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-diB/ilAZXxdmbf5QWuYAJ2YEeusJQuqwIaMBLuE2I5wAg3kgaTw3LZTdAoMK+Ze4BycnInCFkWwfdfFic/rnMQ==",
-      "path": "serverbytes.pluginsdk/1.0.8",
-      "hashPath": "serverbytes.pluginsdk.1.0.8.nupkg.sha512"
+      "sha512": "sha512-v7VjSg/gIqapne07ZeR1PC9V1SaveZS4Cw3WBJRLSfKr1MdbLhdPlWWToLlYvRkYTVO1niNKf232mRPGmUX0nw==",
+      "path": "serverbytes.pluginsdk/1.0.9",
+      "hashPath": "serverbytes.pluginsdk.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.PluginSDK.Client/1.0.8": {
+    "ServerBytes.PluginSDK.Client/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pfspzPOgQwTC79fDoD7YFkI8dFNwTrJdaEOgi5rML0RbltGzIHwLAF8HSd4NN/KuPD3VFRnQ6XaThnoa3YMmAw==",
-      "path": "serverbytes.pluginsdk.client/1.0.8",
-      "hashPath": "serverbytes.pluginsdk.client.1.0.8.nupkg.sha512"
+      "sha512": "sha512-PLTZIs1YQ45Mwb0OuAeIOQ+ATRqvn20wLEbcV1zpP/s9klH1ChvJAxiQTIziXCI7xZLoksYy5VhrGSGfbJ7u+w==",
+      "path": "serverbytes.pluginsdk.client/1.0.9",
+      "hashPath": "serverbytes.pluginsdk.client.1.0.9.nupkg.sha512"
     },
-    "ServerBytes.Pooling/1.0.8": {
+    "ServerBytes.Pooling/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NrnAqH9V6/j2rPWYCTICwvlgpYz6NMtGyavS2pH+dStvlWLsmi5y0hc3KQlC/26M+SJUwpcaV9vJ1N6HVNU0kg==",
-      "path": "serverbytes.pooling/1.0.8",
-      "hashPath": "serverbytes.pooling.1.0.8.nupkg.sha512"
+      "sha512": "sha512-cFZ51kE4YqLRAZ4LPPc+Xd526864/RXP3wAv8g7nXrTSeE/5GQ2pJLZ7BGUtKCDP9r7DGs7bHiIISsrMxrOo3g==",
+      "path": "serverbytes.pooling/1.0.9",
+      "hashPath": "serverbytes.pooling.1.0.9.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

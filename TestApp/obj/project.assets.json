@@ -339,14 +339,14 @@
           }
         }
       },
-      "ServerBytes.Client/1.0.8": {
+      "ServerBytes.Client/1.0.9": {
         "type": "package",
         "dependencies": {
           "Json.NET.Aot": "9.0.1",
-          "ServerBytes.Connectivity.TCP.Core": "1.0.8",
-          "ServerBytes.PluginExecutor": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8",
-          "ServerBytes.PluginSDK.Client": "1.0.8",
+          "ServerBytes.Connectivity.TCP.Core": "1.0.9",
+          "ServerBytes.PluginExecutor": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9",
+          "ServerBytes.PluginSDK.Client": "1.0.9",
           "System.Text.Json": "4.7.2"
         },
         "compile": {
@@ -356,11 +356,11 @@
           "lib/netstandard2.0/ServerBytes.Client.dll": {}
         }
       },
-      "ServerBytes.Connectivity.TCP.Core/1.0.8": {
+      "ServerBytes.Connectivity.TCP.Core/1.0.9": {
         "type": "package",
         "dependencies": {
-          "ServerBytes.ConnectivitySDK": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.ConnectivitySDK": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.Connectivity.TCP.Core.dll": {}
@@ -369,11 +369,11 @@
           "lib/netstandard2.0/ServerBytes.Connectivity.TCP.Core.dll": {}
         }
       },
-      "ServerBytes.ConnectivitySDK/1.0.8": {
+      "ServerBytes.ConnectivitySDK/1.0.9": {
         "type": "package",
         "dependencies": {
-          "ServerBytes.PluginSDK": "1.0.8",
-          "ServerBytes.Pooling": "1.0.8"
+          "ServerBytes.PluginSDK": "1.0.9",
+          "ServerBytes.Pooling": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.ConnectivitySDK.dll": {}
@@ -382,12 +382,12 @@
           "lib/netstandard2.0/ServerBytes.ConnectivitySDK.dll": {}
         }
       },
-      "ServerBytes.PluginExecutor/1.0.8": {
+      "ServerBytes.PluginExecutor/1.0.9": {
         "type": "package",
         "dependencies": {
           "ImpromptuInterface": "7.0.1",
-          "ServerBytes.ConnectivitySDK": "1.0.8",
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.ConnectivitySDK": "1.0.9",
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.PluginExecutor.dll": {}
@@ -396,11 +396,11 @@
           "lib/netstandard2.0/ServerBytes.PluginExecutor.dll": {}
         }
       },
-      "ServerBytes.Plugins.Authentication.Abstractions/1.0.6": {
+      "ServerBytes.Plugins.Authentication.Abstractions/1.0.9": {
         "type": "package",
         "dependencies": {
           "MessagePackAnalyzer": "2.1.165",
-          "ServerBytes.PluginSDK": "1.0.6"
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Abstractions.dll": {}
@@ -409,11 +409,11 @@
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Abstractions.dll": {}
         }
       },
-      "ServerBytes.Plugins.Authentication.Client/1.0.6": {
+      "ServerBytes.Plugins.Authentication.Client/1.0.9": {
         "type": "package",
         "dependencies": {
-          "ServerBytes.PluginSDK.Client": "1.0.6",
-          "ServerBytes.Plugins.Authentication.Abstractions": "1.0.6"
+          "ServerBytes.PluginSDK.Client": "1.0.9",
+          "ServerBytes.Plugins.Authentication.Abstractions": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Client.dll": {}
@@ -422,7 +422,7 @@
           "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Client.dll": {}
         }
       },
-      "ServerBytes.PluginSDK/1.0.8": {
+      "ServerBytes.PluginSDK/1.0.9": {
         "type": "package",
         "dependencies": {
           "MessagePack": "2.1.165"
@@ -434,10 +434,10 @@
           "lib/netstandard2.0/ServerBytes.PluginSDK.dll": {}
         }
       },
-      "ServerBytes.PluginSDK.Client/1.0.8": {
+      "ServerBytes.PluginSDK.Client/1.0.9": {
         "type": "package",
         "dependencies": {
-          "ServerBytes.PluginSDK": "1.0.8"
+          "ServerBytes.PluginSDK": "1.0.9"
         },
         "compile": {
           "lib/netstandard2.0/ServerBytes.PluginSDK.Client.dll": {}
@@ -446,7 +446,7 @@
           "lib/netstandard2.0/ServerBytes.PluginSDK.Client.dll": {}
         }
       },
-      "ServerBytes.Pooling/1.0.8": {
+      "ServerBytes.Pooling/1.0.9": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/ServerBytes.Pooling.dll": {}
@@ -1879,116 +1879,114 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "ServerBytes.Client/1.0.8": {
-      "sha512": "dp15p+GmdFGt3NMybZAeDPjeZipwGXHejQB6q4XsRhX3I0ITTyawpM6te8GKs4HMUIEZKck5oKfPnih9CLAExg==",
+    "ServerBytes.Client/1.0.9": {
+      "sha512": "IQMNxoVLaEegEMuaw4LPG74BoUW6qVtrXJj76fA1McXInjyWY0KTJsxygZCu04BIBQuD7q6cdSNg7FNgoNk0nQ==",
       "type": "package",
-      "path": "serverbytes.client/1.0.8",
+      "path": "serverbytes.client/1.0.9",
       "files": [
         ".nupkg.metadata",
         "LICENSE.txt",
         "lib/netstandard2.0/ServerBytes.Client.dll",
         "package_icon.png",
-        "serverbytes.client.1.0.8.nupkg.sha512",
+        "serverbytes.client.1.0.9.nupkg.sha512",
         "serverbytes.client.nuspec"
       ]
     },
-    "ServerBytes.Connectivity.TCP.Core/1.0.8": {
-      "sha512": "ce3MyV3hO1868n7E0niqve13nt7v7sEmGixk3HXOTaE6SCoHTewnF4XhQZebSmc8aTFJyri+9JbRfBQ+HAxx1A==",
+    "ServerBytes.Connectivity.TCP.Core/1.0.9": {
+      "sha512": "o4LjEVddMzLRSbWj+dW5sYxQMRO4SsrA/WaWacz9P8gWmAVbbqMFsoyqB8/cqBLhXqKgVLbKxpR8Nl5ggaqqnw==",
       "type": "package",
-      "path": "serverbytes.connectivity.tcp.core/1.0.8",
+      "path": "serverbytes.connectivity.tcp.core/1.0.9",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/ServerBytes.Connectivity.TCP.Core.dll",
         "package_icon.png",
-        "serverbytes.connectivity.tcp.core.1.0.8.nupkg.sha512",
+        "serverbytes.connectivity.tcp.core.1.0.9.nupkg.sha512",
         "serverbytes.connectivity.tcp.core.nuspec"
       ]
     },
-    "ServerBytes.ConnectivitySDK/1.0.8": {
-      "sha512": "RG6lg1G7D41Al1srGrv3KNA8iyI6hQI6uqaoDjf6v1dVmPe2jI6oeEmQY5mLPdI370zlHtRYLHEPnVV2hi5Sbg==",
+    "ServerBytes.ConnectivitySDK/1.0.9": {
+      "sha512": "Erd8+4BgqXwKXQE4vpBK3uf4x4kDU2R2GDQVj5B51ElabIM79RsxRrhEwUEZUpFByDksCGLAbU3G3jY9hUg7SA==",
       "type": "package",
-      "path": "serverbytes.connectivitysdk/1.0.8",
+      "path": "serverbytes.connectivitysdk/1.0.9",
       "files": [
         ".nupkg.metadata",
         "LICENSE.txt",
         "lib/netstandard2.0/ServerBytes.ConnectivitySDK.dll",
         "package_icon.png",
-        "serverbytes.connectivitysdk.1.0.8.nupkg.sha512",
+        "serverbytes.connectivitysdk.1.0.9.nupkg.sha512",
         "serverbytes.connectivitysdk.nuspec"
       ]
     },
-    "ServerBytes.PluginExecutor/1.0.8": {
-      "sha512": "1rLxPPOg690koHEmVh426oPjjkIdfsSW/zQn3A5ZzHYhzPYkFQwTukxN/cdRn5C/B7bvSAlVnFq3KY0XMNP+Mw==",
+    "ServerBytes.PluginExecutor/1.0.9": {
+      "sha512": "T1PuffvW006OOaZzQ8FFDZiLZ+HICjSmeSgPkloCRnUvQRnr0quA4Aijg2YJihhaLcqmAijkDHoTaaNnRDsdBQ==",
       "type": "package",
-      "path": "serverbytes.pluginexecutor/1.0.8",
+      "path": "serverbytes.pluginexecutor/1.0.9",
       "files": [
         ".nupkg.metadata",
         "LICENSE.txt",
         "lib/netstandard2.0/ServerBytes.PluginExecutor.dll",
         "package_icon.png",
-        "serverbytes.pluginexecutor.1.0.8.nupkg.sha512",
+        "serverbytes.pluginexecutor.1.0.9.nupkg.sha512",
         "serverbytes.pluginexecutor.nuspec"
       ]
     },
-    "ServerBytes.Plugins.Authentication.Abstractions/1.0.6": {
-      "sha512": "+SY+qwYgLv5IGIb0W6NatZ6CS/u5Ab7y8S7Ezq1rQsFWFIVZpDn3eDLQorBzYl+bx+OyOS+e2MCNULXFcqDAQw==",
+    "ServerBytes.Plugins.Authentication.Abstractions/1.0.9": {
+      "sha512": "1NYwEC/QZDH9YyYpe28NFLXOhaAW87iy7XwAHwhaB8d7yGZ976TyasCUyaMQn+QHqfBr7Lw9I+coKGH/qVFRgA==",
       "type": "package",
-      "path": "serverbytes.plugins.authentication.abstractions/1.0.6",
+      "path": "serverbytes.plugins.authentication.abstractions/1.0.9",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Abstractions.dll",
-        "serverbytes.plugins.authentication.abstractions.1.0.6.nupkg.sha512",
+        "serverbytes.plugins.authentication.abstractions.1.0.9.nupkg.sha512",
         "serverbytes.plugins.authentication.abstractions.nuspec"
       ]
     },
-    "ServerBytes.Plugins.Authentication.Client/1.0.6": {
-      "sha512": "Q5o+h7to3Kg4jJO4b8aZVu6c8xsU+Tui9rLtmPTUuyuqxFcQ5sAonjkrMXhwxLxGdHzv2CwPapbz/2XMpQeh4Q==",
+    "ServerBytes.Plugins.Authentication.Client/1.0.9": {
+      "sha512": "DGOKgnXfu4GcyrSF+Kqn0IVsJvSow9k4nZt4U0Y72NQ8tVYBAGJxwoXOjYA/NUqxBiu4T1pSz9DRcqWHKmqfVQ==",
       "type": "package",
-      "path": "serverbytes.plugins.authentication.client/1.0.6",
+      "path": "serverbytes.plugins.authentication.client/1.0.9",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netstandard2.0/ServerBytes.Plugins.Authentication.Client.dll",
-        "serverbytes.plugins.authentication.client.1.0.6.nupkg.sha512",
+        "serverbytes.plugins.authentication.client.1.0.9.nupkg.sha512",
         "serverbytes.plugins.authentication.client.nuspec"
       ]
     },
-    "ServerBytes.PluginSDK/1.0.8": {
-      "sha512": "diB/ilAZXxdmbf5QWuYAJ2YEeusJQuqwIaMBLuE2I5wAg3kgaTw3LZTdAoMK+Ze4BycnInCFkWwfdfFic/rnMQ==",
+    "ServerBytes.PluginSDK/1.0.9": {
+      "sha512": "v7VjSg/gIqapne07ZeR1PC9V1SaveZS4Cw3WBJRLSfKr1MdbLhdPlWWToLlYvRkYTVO1niNKf232mRPGmUX0nw==",
       "type": "package",
-      "path": "serverbytes.pluginsdk/1.0.8",
+      "path": "serverbytes.pluginsdk/1.0.9",
       "files": [
         ".nupkg.metadata",
         "LICENSE.txt",
         "lib/netstandard2.0/ServerBytes.PluginSDK.dll",
         "package_icon.png",
-        "serverbytes.pluginsdk.1.0.8.nupkg.sha512",
+        "serverbytes.pluginsdk.1.0.9.nupkg.sha512",
         "serverbytes.pluginsdk.nuspec"
       ]
     },
-    "ServerBytes.PluginSDK.Client/1.0.8": {
-      "sha512": "pfspzPOgQwTC79fDoD7YFkI8dFNwTrJdaEOgi5rML0RbltGzIHwLAF8HSd4NN/KuPD3VFRnQ6XaThnoa3YMmAw==",
+    "ServerBytes.PluginSDK.Client/1.0.9": {
+      "sha512": "PLTZIs1YQ45Mwb0OuAeIOQ+ATRqvn20wLEbcV1zpP/s9klH1ChvJAxiQTIziXCI7xZLoksYy5VhrGSGfbJ7u+w==",
       "type": "package",
-      "path": "serverbytes.pluginsdk.client/1.0.8",
+      "path": "serverbytes.pluginsdk.client/1.0.9",
       "files": [
         ".nupkg.metadata",
         "LICENSE.txt",
         "lib/netstandard2.0/ServerBytes.PluginSDK.Client.dll",
         "package_icon.png",
-        "serverbytes.pluginsdk.client.1.0.8.nupkg.sha512",
+        "serverbytes.pluginsdk.client.1.0.9.nupkg.sha512",
         "serverbytes.pluginsdk.client.nuspec"
       ]
     },
-    "ServerBytes.Pooling/1.0.8": {
-      "sha512": "NrnAqH9V6/j2rPWYCTICwvlgpYz6NMtGyavS2pH+dStvlWLsmi5y0hc3KQlC/26M+SJUwpcaV9vJ1N6HVNU0kg==",
+    "ServerBytes.Pooling/1.0.9": {
+      "sha512": "cFZ51kE4YqLRAZ4LPPc+Xd526864/RXP3wAv8g7nXrTSeE/5GQ2pJLZ7BGUtKCDP9r7DGs7bHiIISsrMxrOo3g==",
       "type": "package",
-      "path": "serverbytes.pooling/1.0.8",
+      "path": "serverbytes.pooling/1.0.9",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/ServerBytes.Pooling.dll",
         "package_icon.png",
-        "serverbytes.pooling.1.0.8.nupkg.sha512",
+        "serverbytes.pooling.1.0.9.nupkg.sha512",
         "serverbytes.pooling.nuspec"
       ]
     },
@@ -5077,8 +5075,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ServerBytes.Client >= 1.0.8",
-      "ServerBytes.Plugins.Authentication.Client >= 1.0.6"
+      "ServerBytes.Client >= 1.0.9",
+      "ServerBytes.Plugins.Authentication.Client >= 1.0.9"
     ]
   },
   "packageFolders": {
@@ -5088,16 +5086,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ServerBytes\\TestApp\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "c:\\ServerBytes\\TestApp\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "C:\\ServerBytes\\TestApp\\TestApp\\TestApp.csproj",
+      "projectPath": "c:\\ServerBytes\\TestApp\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\pavlo\\.nuget\\packages\\",
-      "outputPath": "C:\\ServerBytes\\TestApp\\TestApp\\obj\\",
+      "outputPath": "c:\\ServerBytes\\TestApp\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+        "c:\\ServerBytes\\TestApp\\NuGet.Config",
         "C:\\Users\\pavlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5105,7 +5104,8 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.serverbytes.net/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -5125,11 +5125,11 @@
         "dependencies": {
           "ServerBytes.Client": {
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[1.0.9, )"
           },
           "ServerBytes.Plugins.Authentication.Client": {
             "target": "Package",
-            "version": "[1.0.6, )"
+            "version": "[1.0.9, )"
           }
         },
         "imports": [

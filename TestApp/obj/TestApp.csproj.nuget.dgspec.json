@@ -17,6 +17,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+          "C:\\ServerBytes\\TestApp\\NuGet.Config",
           "C:\\Users\\pavlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -24,7 +25,9 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.serverbytes.net/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -44,11 +47,11 @@
           "dependencies": {
             "ServerBytes.Client": {
               "target": "Package",
-              "version": "[1.0.8, )"
+              "version": "[1.0.9, )"
             },
             "ServerBytes.Plugins.Authentication.Client": {
               "target": "Package",
-              "version": "[1.0.6, )"
+              "version": "[1.0.9, )"
             }
           },
           "imports": [
